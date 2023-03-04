@@ -1,1 +1,6 @@
-![DAWG](https://user-images.githubusercontent.com/77017866/175112756-e00dc180-28b4-4936-b3be-deb417cccd60.png)
+Welcome to DAWG workshop repository. Here, we are saving materials for our monthly workshop. You can also find our [DAWG wiki](https://github.com/DAWGPSU/DAWG_workshop/wiki) too!
+
+For more information about DAWG at penn state, please check our social media. 
+
+Twitter: twitter.com/dawg_at_PSU
+slack channel: TBD
