@@ -1,0 +1,44 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Desulfomicrobium orale	132132	S	920	417	1337	0.03065
+Desulfobulbus oralis	1986146	S	199	96	295	0.00676
+Campylobacter rectus	203	S	52	66	118	0.00270
+Campylobacter showae	204	S	10	6	16	0.00037
+Campylobacter gracilis	824	S	8	3	11	0.00025
+Bdellovibrio bacteriovorus	959	S	614	96	710	0.01628
+Klebsiella pneumoniae	573	S	287	31351	31638	0.72526
+Moraxella osloensis	34062	S	9	4	13	0.00030
+Aggregatibacter aphrophilus	732	S	11	15	26	0.00060
+Acidovorax sp. KKS102	358220	S	10	39	49	0.00112
+Limnobacter sp. SAORIC-580	2732163	S	41	16	57	0.00131
+Actinomyces sp. oral taxon 414	712122	S	496	592	1088	0.02494
+Actinomyces sp. oral taxon 171	706438	S	9	25	34	0.00078
+Actinomyces oris	544580	S	12	95	107	0.00245
+Actinomyces viscosus	1656	S	9	17	26	0.00060
+Schaalia meyeri	52773	S	37	27	64	0.00147
+Schaalia cardiffensis	181487	S	9	3	12	0.00028
+Arachnia propionica	1750	S	303	229	532	0.01220
+Cutibacterium acnes	1747	S	11	9	20	0.00046
+Mycobacterium canettii	78331	S	91	423	514	0.01178
+Olsenella sp. oral taxon 807	712411	S	552	163	715	0.01639
+Olsenella uli	133926	S	27	13	40	0.00092
+Staphylococcus aureus	1280	S	13	574	587	0.01346
+Staphylococcus epidermidis	1282	S	11	72	83	0.00190
+Staphylococcus cohnii	29382	S	10	62	72	0.00165
+Staphylococcus hominis	1290	S	9	40	49	0.00112
+Streptococcus anginosus	1328	S	9	487	496	0.01137
+Filifactor alocis	143361	S	42	273	315	0.00722
+Mogibacterium pumilum	86332	S	22	27	49	0.00112
+Parvimonas micra	33033	S	23	241	264	0.00605
+Treponema denticola	158	S	87	266	353	0.00809
+Treponema socranskii	53419	S	64	42	106	0.00243
+Treponema parvum	138851	S	30	11	41	0.00094
+Treponema sp. Marseille-Q4132	2766701	S	11	9	20	0.00046
+Porphyromonas gingivalis	837	S	58	20	78	0.00179
+Tannerella forsythia	28112	S	55	24	79	0.00181
+Fretibacterium fastidiosum	651822	S	102	62	164	0.00376
+Fusobacterium nucleatum	851	S	40	178	218	0.00500
+Fusobacterium necrophorum	859	S	11	41	52	0.00119
+Candidatus Nanosynbacter lyticus	2093824	S	23	81	104	0.00238
+Candidatus Nanosynbacter featherlites	2572088	S	17	31	48	0.00110
+Candidatus Nanosynbacter sp. HMT-352	2899133	S	14	25	39	0.00089
+Homo sapiens	9606	S	2485	477	2962	0.06790

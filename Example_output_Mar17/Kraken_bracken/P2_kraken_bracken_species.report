@@ -1,0 +1,137 @@
+100.00	24525	0	R	1	root
+100.00	24525	0	R1	131567	  cellular organisms
+88.01	21583	0	D	2	    Bacteria
+64.19	15741	0	D1	1783272	      Terrabacteria group
+64.01	15699	0	P	201174	        Actinobacteria
+64.01	15699	0	C	1760	          Actinomycetia
+62.33	15285	0	O	85007	            Corynebacteriales
+62.33	15285	0	F	1762	              Mycobacteriaceae
+62.33	15285	0	G	1763	                Mycobacterium
+62.33	15285	0	G1	77643	                  Mycobacterium tuberculosis complex
+62.33	15285	15285	S	78331	                    Mycobacterium canettii
+1.06	259	0	O	2037	            Actinomycetales
+1.06	259	0	F	2049	              Actinomycetaceae
+0.92	225	0	G	1654	                Actinomyces
+0.92	225	0	G1	2609248	                  unclassified Actinomyces
+0.92	225	225	S	712122	                    Actinomyces sp. oral taxon 414
+0.14	33	0	G	2529408	                Schaalia
+0.09	21	21	S	181487	                  Schaalia cardiffensis
+0.05	11	11	S	52773	                  Schaalia meyeri
+0.58	142	0	O	85009	            Propionibacteriales
+0.58	142	0	F	31957	              Propionibacteriaceae
+0.58	142	0	G	2801844	                Arachnia
+0.58	142	142	S	1750	                  Arachnia propionica
+0.05	12	0	O	85010	            Pseudonocardiales
+0.05	12	0	F	2070	              Pseudonocardiaceae
+0.05	12	0	G	1851	                Saccharomonospora
+0.05	12	12	S	40990	                  Saccharomonospora glauca
+0.17	41	0	P	1239	        Firmicutes
+0.11	26	0	C	91061	          Bacilli
+0.11	26	0	O	1385	            Bacillales
+0.11	26	0	F	186822	              Paenibacillaceae
+0.11	26	0	G	44249	                Paenibacillus
+0.11	26	26	S	1401	                  Paenibacillus lautus
+0.06	15	0	C	186801	          Clostridia
+0.06	15	0	O	186802	            Eubacteriales
+0.06	15	0	F	186804	              Peptostreptococcaceae
+0.06	15	0	G	44259	                Filifactor
+0.06	15	15	S	143361	                  Filifactor alocis
+22.80	5591	0	P	1224	      Proteobacteria
+19.61	4808	0	C	1236	        Gammaproteobacteria
+19.61	4808	0	O	91347	          Enterobacterales
+19.61	4808	0	F	543	            Enterobacteriaceae
+19.61	4808	0	F1	2890311	              Klebsiella/Raoultella group
+19.61	4808	0	G	570	                Klebsiella
+19.61	4808	4808	S	573	                  Klebsiella pneumoniae
+1.54	376	0	P1	68525	        delta/epsilon subdivisions
+1.50	367	0	C	28221	          Deltaproteobacteria
+1.50	367	0	O	213115	            Desulfovibrionales
+1.50	367	0	F	213116	              Desulfomicrobiaceae
+1.50	367	0	G	898	                Desulfomicrobium
+1.50	367	367	S	132132	                  Desulfomicrobium orale
+0.04	9	0	C	29547	          Epsilonproteobacteria
+0.04	9	0	O	213849	            Campylobacterales
+0.04	9	0	F	72294	              Campylobacteraceae
+0.04	9	0	G	194	                Campylobacter
+0.04	9	9	S	203	                  Campylobacter rectus
+1.25	306	0	C	1553900	        Oligoflexia
+1.25	306	0	O	213481	          Bdellovibrionales
+1.25	306	0	F	213483	            Bdellovibrionaceae
+1.25	306	0	G	958	              Bdellovibrio
+1.25	306	306	S	959	                Bdellovibrio bacteriovorus
+0.41	99	0	C	28216	        Betaproteobacteria
+0.41	99	0	O	80840	          Burkholderiales
+0.21	51	0	F	119060	            Burkholderiaceae
+0.21	51	0	G	131079	              Limnobacter
+0.21	51	0	G1	2630203	                unclassified Limnobacter
+0.21	51	51	S	2732163	                  Limnobacter sp. SAORIC-580
+0.20	48	0	F	80864	            Comamonadaceae
+0.12	29	0	G	12916	              Acidovorax
+0.12	29	0	G1	2684926	                unclassified Acidovorax
+0.12	29	29	S	358220	                  Acidovorax sp. KKS102
+0.08	18	0	G	52972	              Polaromonas
+0.08	18	0	G1	2638319	                unclassified Polaromonas
+0.08	18	18	S	296591	                  Polaromonas sp. JS666
+0.43	106	0	P	203691	      Spirochaetes
+0.43	106	0	C	203692	        Spirochaetia
+0.43	106	0	O	136	          Spirochaetales
+0.43	106	0	F	2845253	            Treponemataceae
+0.43	106	0	G	157	              Treponema
+0.15	37	37	S	53419	                Treponema socranskii
+0.28	68	68	S	158	                Treponema denticola
+0.22	55	0	D1	2323	      Bacteria incertae sedis
+0.22	55	0	D2	1783234	        Bacteria candidate phyla
+0.22	55	0	P	95818	          Candidatus Saccharibacteria
+0.22	55	0	C	2093818	            Candidatus Saccharimonadia
+0.22	55	0	O	2093819	              Candidatus Nanosynbacterales
+0.22	55	0	F	2093822	                Candidatus Nanosynbacteraceae
+0.22	55	0	G	2093823	                  Candidatus Nanosynbacter
+0.10	25	25	S	2572088	                    Candidatus Nanosynbacter featherlites
+0.12	29	29	S	2093824	                    Candidatus Nanosynbacter lyticus
+0.18	45	0	P	508458	      Synergistetes
+0.18	45	0	C	649775	        Synergistia
+0.18	45	0	O	649776	          Synergistales
+0.18	45	0	F	649777	            Synergistaceae
+0.18	45	0	G	1434006	              Fretibacterium
+0.18	45	45	S	651822	                Fretibacterium fastidiosum
+0.18	43	0	D1	1783270	      FCB group
+0.18	43	0	D2	68336	        Bacteroidetes/Chlorobi group
+0.18	43	0	P	976	          Bacteroidota
+0.18	43	0	C	200643	            Bacteroidia
+0.18	43	0	O	171549	              Bacteroidales
+0.10	24	0	F	2005525	                Tannerellaceae
+0.10	24	0	G	195950	                  Tannerella
+0.10	24	24	S	28112	                    Tannerella forsythia
+0.08	19	0	F	171551	                Porphyromonadaceae
+0.08	19	0	G	836	                  Porphyromonas
+0.08	19	19	S	837	                    Porphyromonas gingivalis
+11.99	2941	0	D	2759	    Eukaryota
+11.99	2941	0	D1	33154	      Opisthokonta
+11.99	2941	0	K	33208	        Metazoa
+11.99	2941	0	K1	6072	          Eumetazoa
+11.99	2941	0	K2	33213	            Bilateria
+11.99	2941	0	K3	33511	              Deuterostomia
+11.99	2941	0	P	7711	                Chordata
+11.99	2941	0	P1	89593	                  Craniata
+11.99	2941	0	P2	7742	                    Vertebrata
+11.99	2941	0	P3	7776	                      Gnathostomata
+11.99	2941	0	P4	117570	                        Teleostomi
+11.99	2941	0	P5	117571	                          Euteleostomi
+11.99	2941	0	P6	8287	                            Sarcopterygii
+11.99	2941	0	P7	1338369	                              Dipnotetrapodomorpha
+11.99	2941	0	P8	32523	                                Tetrapoda
+11.99	2941	0	P9	32524	                                  Amniota
+11.99	2941	0	C	40674	                                    Mammalia
+11.99	2941	0	C1	32525	                                      Theria
+11.99	2941	0	C2	9347	                                        Eutheria
+11.99	2941	0	C3	1437010	                                          Boreoeutheria
+11.99	2941	0	C4	314146	                                            Euarchontoglires
+11.99	2941	0	O	9443	                                              Primates
+11.99	2941	0	O1	376913	                                                Haplorrhini
+11.99	2941	0	O2	314293	                                                  Simiiformes
+11.99	2941	0	O3	9526	                                                    Catarrhini
+11.99	2941	0	O4	314295	                                                      Hominoidea
+11.99	2941	0	F	9604	                                                        Hominidae
+11.99	2941	0	F1	207598	                                                          Homininae
+11.99	2941	0	G	9605	                                                            Homo
+11.99	2941	2941	S	9606	                                                              Homo sapiens

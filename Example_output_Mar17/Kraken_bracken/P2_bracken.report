@@ -1,0 +1,24 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Mycobacterium canettii	78331	S	14414	871	15285	0.62324
+Actinomyces sp. oral taxon 414	712122	S	187	38	225	0.00917
+Schaalia cardiffensis	181487	S	21	0	21	0.00086
+Schaalia meyeri	52773	S	11	0	11	0.00045
+Arachnia propionica	1750	S	128	14	142	0.00579
+Saccharomonospora glauca	40990	S	11	1	12	0.00049
+Paenibacillus lautus	1401	S	21	5	26	0.00106
+Filifactor alocis	143361	S	8	7	15	0.00061
+Desulfomicrobium orale	132132	S	359	8	367	0.01496
+Campylobacter rectus	203	S	8	1	9	0.00037
+Bdellovibrio bacteriovorus	959	S	306	0	306	0.01248
+Acidovorax sp. KKS102	358220	S	10	19	29	0.00118
+Polaromonas sp. JS666	296591	S	10	8	18	0.00073
+Limnobacter sp. SAORIC-580	2732163	S	45	6	51	0.00208
+Klebsiella pneumoniae	573	S	29	4779	4808	0.19604
+Treponema socranskii	53419	S	32	5	37	0.00151
+Treponema denticola	158	S	29	39	68	0.00277
+Candidatus Nanosynbacter featherlites	2572088	S	21	4	25	0.00102
+Candidatus Nanosynbacter lyticus	2093824	S	16	13	29	0.00118
+Tannerella forsythia	28112	S	21	3	24	0.00098
+Porphyromonas gingivalis	837	S	18	1	19	0.00077
+Fretibacterium fastidiosum	651822	S	45	0	45	0.00183
+Homo sapiens	9606	S	2628	313	2941	0.11992
