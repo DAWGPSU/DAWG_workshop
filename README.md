@@ -4,7 +4,7 @@ For more information about DAWG at penn state, please check our social media.
 
 Twitter: [twitter.com/dawg_at_PSU](https://twitter.com/dawg_at_PSU)
 
-slack channel: TBD
+slack channel: [PSU microbiome center slack channel, DAWG sub-channel](https://app.slack.com/client/TSMLP8Z3N/CSQHX55BQ)
 
 github: [github.com/DAWGPSU](https://github.com/DAWGPSU)
 
