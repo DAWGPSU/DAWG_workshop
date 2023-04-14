@@ -43,11 +43,11 @@ Run the isContaminant () function to identify which species/taxa are classified 
 ```
 contamdf.prev<-isContaminant(phyloseq.object, method = "prevalence", neg = "is.neg")
 ```
-### Check the table to prevelance of species/taxa identified as contaminants
+ Check the table to prevelance of species/taxa identified as contaminants
 ```
 table(contamdf.prev$contaminant)
 ```
-### The threshhold to identify contaminant is raised from default ( 0.1) to 0.5
+ The threshhold to identify contaminant is raised from default ( 0.1) to 0.5
 ```
 contamdf.prev05<-isContaminant(phyloseq.object, method = "prevalence", neg = "is.neg", threshold = 0.5)
 ```
@@ -58,36 +58,44 @@ ps.pa<-transform_sample_counts(phyloseq.object, function(abund) 1*(abund>0))
 ps.pa.neg<-prune_samples(sample_data(ps.pa)$SampleType == "Control", ps.pa)
 ps.pa.pos<-prune_samples(sample_data(ps.pa)$SampleType == "Calculus", ps.pa)
 ```
-# Make data.frame of prevalence in positive and negative samples
+### Make data.frame of prevalence in positive and negative samples
 ```
 df.pa.05<-data.frame(pa.pos=taxa_sums(ps.pa.pos), pa.neg=taxa_sums(ps.pa.neg), contaminant=contamdf.prev05$contaminant) 
 ggplot(data=df.pa.05, aes(x=pa.neg, y=pa.pos, color=contaminant)) + geom_point() +
   xlab("Prevalence (Negative Controls)") + ylab("Prevalence (Calculus Samples)")
   ```
-# Based on the plot, we see a split in the blue and orange dots.
 
-### Prune taxa
-# Now that we have identified which taxa are likely contaminants, we can remove those taxa from our biom table. 
-# This will provide a 'cleaner' table and should improve the robustness of our downstream analyses. 
-  ```
+Based on the plot, we see a split in the blue and orange dots.
+
+# Prune taxa
+
+Now that we have identified which taxa are likely contaminants, we can remove those taxa from our biom table. 
+This will provide a 'cleaner' table and should improve the robustness of our downstream analyses. 
+
+```
 phyloseq.decontam.05<-prune_taxa(!df.pa.05$contaminant, phyloseq.object)
 phyloseq.decontam.05
-  ``` 
+``` 
 
 ### Convert phyloseq objects into txt file 
 
-# Now that you have a clean dataset. You may want to analyze this table in another program (e.g., QIIME2)
-# To do that, you may want to export the table as a txt file 
-# First, convert the biom table in the phyloseq object to a dataframe  
+Now that you have a clean dataset. You may want to analyze this table in another program (e.g., QIIME2)
+To do that, you may want to export the table as a txt file 
+
+ First, convert the biom table in the phyloseq object to a dataframe  
   ```
 species_postdecontam.05.df<-phyloseq_to_df(phyloseq.decontam.05, addtax = FALSE, addtot = FALSE, addmaxrank = FALSE, sorting = "NULL")
 View(species_postdecontam.05.df)
   ```
-# Second, write the table to a txt file 
+ Second, write the table to a txt file 
   ```
 write.table(species_postdecontam.05.df, "data-postdecontam-prev05.txt", sep = "\t", row.names = FALSE)
   ```
-# check to see if the text file was created 
+ check to see if the text file was created 
 
-# You can now proceed to perform downstream analyses 
+***You can now proceed to perform downstream analyses***
+
+
+
+
 
