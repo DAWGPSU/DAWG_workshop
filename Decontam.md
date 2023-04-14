@@ -65,6 +65,9 @@ ggplot(data=df.pa.05, aes(x=pa.neg, y=pa.pos, color=contaminant)) + geom_point()
   xlab("Prevalence (Negative Controls)") + ylab("Prevalence (Calculus Samples)")
   ```
 
+![Rplot](https://user-images.githubusercontent.com/126822453/231911848-51ec647b-1977-4cf1-91bc-5f9e2eaea1df.png)
+
+
 Based on the plot, we see a split in the blue and orange dots.
 
 # Prune taxa
@@ -87,7 +90,11 @@ To do that, you may want to export the table as a txt file
 species_postdecontam.05.df<-phyloseq_to_df(phyloseq.decontam.05, addtax = FALSE, addtot = FALSE, addmaxrank = FALSE, sorting = "NULL")
 View(species_postdecontam.05.df)
   ```
- Second, write the table to a txt file 
+
+![Screen Shot 2023-04-13 at 8 34 01 PM](https://user-images.githubusercontent.com/126822453/231911886-aafe5c3a-8320-4255-bed7-f95421219f25.png)
+
+
+Second, write the table to a txt file 
   ```
 write.table(species_postdecontam.05.df, "data-postdecontam-prev05.txt", sep = "\t", row.names = FALSE)
   ```
