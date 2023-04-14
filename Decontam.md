@@ -17,15 +17,15 @@ library(decontam); packageVersion("decontam") ## '1.8.0'    #BiocManager::instal
 library(plyr); packageVersion("plyr")
 library(metagMisc); packageVersion("metagMisc")
 ```
-#Import Biom table
+### Import Biom table
 ```
 data<-import_biom("table.biom")
 ```
-#Import metadata
+### Import metadata
 ```
 metadata<-import_qiime_sample_data("metadata.txt")
 ```
-#Create phyloseq object
+### Create phyloseq object
 Phyloseq objects can contain biom tables and metadata
 ```
 phyloseq.object<-merge_phyloseq(data,metadata)
@@ -34,7 +34,7 @@ Check phyloseq object
 ```
 phyloseq.object
 ```
-#Identify Contaminants- prevelance
+### Identify Contaminants- prevelance
 We will use the "prevelance'method  that look for absence/presence
 ```
 sample_data(phyloseq.object)$is.neg<-sample_data(phyloseq.object)$SampleType== "Control"
@@ -43,15 +43,15 @@ Run the isContaminant () function to identify which species/taxa are classified 
 ```
 contamdf.prev<-isContaminant(phyloseq.object, method = "prevalence", neg = "is.neg")
 ```
-#Check the table to prevelance of species/taxa identified as contaminants
+### Check the table to prevelance of species/taxa identified as contaminants
 ```
 table(contamdf.prev$contaminant)
 ```
-#The threshhold to identify contaminant is raised from default ( 0.1) to 0.5
+### The threshhold to identify contaminant is raised from default ( 0.1) to 0.5
 ```
 contamdf.prev05<-isContaminant(phyloseq.object, method = "prevalence", neg = "is.neg", threshold = 0.5)
 ```
-#Result Visualization
+### Result Visualization
 Make phyloseq object of presence-absence in negative controls and true samples 
 ```
 ps.pa<-transform_sample_counts(phyloseq.object, function(abund) 1*(abund>0))
@@ -66,7 +66,7 @@ ggplot(data=df.pa.05, aes(x=pa.neg, y=pa.pos, color=contaminant)) + geom_point()
   ```
 # Based on the plot, we see a split in the blue and orange dots.
 
-#Prune taxa
+### Prune taxa
 # Now that we have identified which taxa are likely contaminants, we can remove those taxa from our biom table. 
 # This will provide a 'cleaner' table and should improve the robustness of our downstream analyses. 
   ```
@@ -74,7 +74,7 @@ phyloseq.decontam.05<-prune_taxa(!df.pa.05$contaminant, phyloseq.object)
 phyloseq.decontam.05
   ``` 
 
-#Convert phyloseq objects into txt file 
+### Convert phyloseq objects into txt file 
 
 # Now that you have a clean dataset. You may want to analyze this table in another program (e.g., QIIME2)
 # To do that, you may want to export the table as a txt file 
