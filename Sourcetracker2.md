@@ -4,7 +4,12 @@ Sourceracker2 is a tool to study microbial source using the Gibb's sampler. As a
 - 2. Select one of the sequences from step 1, calculate the actual probabilities of that sequence having come from any of the source environments, and update the assigned source environment of the sequence based on a random draw with the calculated probabilities. Repeat many times.
 - At intervals in the repeats of step 2, take the source environment assingments of all the sequences in a sink and record them.
 - After doing step 3 a certain number of times (i.e. recording the full assignments of source environments for each sink sequence), terminate the iteration and move to the next sink.
-Here's a fuller [explanation of the machinary and the raw code](https://github.com/biota/sourcetracker2/blob/master/ipynb/Sourcetracking%20using%20a%20Gibbs%20Sampler.ipynb) for sourcetracker2. This page will go through the installation and usage of sourcetracker2 to track the source of each sequences in order to assess the contamination proportion. 
+Here's a fuller [explanation of the machinary and the raw code](https://github.com/biota/sourcetracker2/blob/master/ipynb/Sourcetracking%20using%20a%20Gibbs%20Sampler.ipynb) for sourcetracker2. This page will go through the installation and usage of sourcetracker2 to track the source of each sequences in order to assess the contamination proportion.
+
+# Log in to roar collab
+```
+module load anaconda3
+```
 
 # Installation
 ```
